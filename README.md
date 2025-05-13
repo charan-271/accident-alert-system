@@ -23,6 +23,10 @@ When an accident is detected (abnormal tilt or flame), the system:
 - **OLED Display**: Shows real-time system status
 - **Matrix Keypad**: Allows user to input emergency contact number
 
+## Circuit Diagram
+![Circuit Diagram](images/Circuit_diagram.png)
+*The circuit diagram showing connections between all components*
+
 ## Pin Connections
 - SIM900 GSM Module: TX->5, RX->4
 - GPS Module: TX->3, RX->2
@@ -63,6 +67,10 @@ When an accident is detected (abnormal tilt or flame), the system:
 
 ## Usage
 Once set up, the system requires no user interaction during normal operation. The OLED display will show real-time sensor data. In the event of an accident, an SMS will be automatically sent to the configured phone number.
+
+## Real-time Operation
+![System in Operation](images/realtime_image.jpg)
+*The accident alert system in real-time operation showing sensor readings on the OLED display*
 
 ## License
 
